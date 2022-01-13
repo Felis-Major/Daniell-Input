@@ -6,7 +6,8 @@
   "unity": "2020.3",
   "unityRelease": "0b5",
   "dependencies": {
-	  "com.unity.inputsystem": "1.0.2"
+	  "com.unity.inputsystem": "1.0.2",
+    "com.test.daniell": "https://github.com/robertedilber/Daniell-Core.git"
  },
   "author": {
     "name": "Robert Edilber",
