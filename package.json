@@ -1,5 +1,5 @@
 {
-  "name": "com.test.daniell",
+  "name": "com.test.daniellinput",
   "version": "1.0.0",
   "displayName": "Daniell Input",
   "description": "Bridge between Unity native input system and Scriptable Events",
@@ -7,7 +7,7 @@
   "unityRelease": "0b5",
   "dependencies": {
 	  "com.unity.inputsystem": "1.0.2",
-    "com.test.daniell": "https://github.com/robertedilber/Daniell-Core.git"
+    "com.test.daniellcore": "https://github.com/robertedilber/Daniell-Core.git"
  },
   "author": {
     "name": "Robert Edilber",
