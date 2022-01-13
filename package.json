@@ -1,0 +1,16 @@
+{
+  "name": "com.test.daniell",
+  "version": "1.0.0",
+  "displayName": "Daniell Input",
+  "description": "Bridge between Unity native input system and Scriptable Events",
+  "unity": "2020.3",
+  "unityRelease": "0b5",
+  "dependencies": {
+	  "com.unity.inputsystem": "1.0.2"
+ },
+  "author": {
+    "name": "Robert Edilber",
+    "email": "robert.edilber@pm.me",
+    "url": "https://github.com/robertedilber"
+  }
+}
