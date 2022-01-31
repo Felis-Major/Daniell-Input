@@ -1,17 +1,17 @@
 {
-  "name": "com.test.daniellinput",
+  "name": "com.felismajor.daniellcore",
   "version": "1.0.0",
   "displayName": "Daniell Input",
-  "description": "Bridge between Unity native input system and Scriptable Events",
+  "description": "Input bridge between Unity's new Input System and Daniell events",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "dependencies": {
-	  "com.unity.inputsystem": "1.0.2",
-    "com.test.daniellcore": "https://github.com/robertedilber/Daniell-Core.git"
+	"com.unity.inputsystem": "1.0.2",
+    	"com.felismajor.daniellcore": "https://github.com/Felis-Major/Daniell-Core.git"
  },
   "author": {
-    "name": "Robert Edilber",
+    "name": "Felis Major",
     "email": "robert.edilber@pm.me",
-    "url": "https://github.com/robertedilber"
+    "url": "https://github.com/Felis-Major"
   }
 }
