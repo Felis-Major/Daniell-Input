@@ -1,5 +1,5 @@
 {
-  "name": "com.felismajor.daniellcore",
+  "name": "com.felismajor.daniellinput",
   "version": "1.0.0",
   "displayName": "Daniell Input",
   "description": "Input bridge between Unity's new Input System and Daniell events",
