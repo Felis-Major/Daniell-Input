@@ -7,7 +7,7 @@
   "unityRelease": "0b5",
   "dependencies": {
 	"com.unity.inputsystem": "1.0.2",
-    	"com.felismajor.core": "https://github.com/Felis-Major/Daniell-Core.git"
+    	"com.felismajor.core": "https://github.com/Felis-Major/FM-Core.git"
  },
   "author": {
     "name": "Felis Major",
