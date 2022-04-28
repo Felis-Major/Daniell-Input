@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 using static UnityEngine.InputSystem.InputAction;
 
-namespace Daniell.Runtime.Systems.Input
+namespace FM.Runtime.Systems.Input
 {
     /// <summary>
     /// Base Input Relay class for registering callbacks from an Input Action

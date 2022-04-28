@@ -1,8 +1,8 @@
-﻿using Daniell.Runtime.Systems.Events;
+﻿using FM.Runtime.Systems.Events;
 using UnityEngine;
 using static UnityEngine.InputSystem.InputAction;
 
-namespace Daniell.Runtime.Systems.Input
+namespace FM.Runtime.Systems.Input
 {
     /// <summary>
     /// Generic form of Input Relay. Raises events without values on Input Action callbacks

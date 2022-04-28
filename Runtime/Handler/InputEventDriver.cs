@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Daniell.Runtime.Systems.Input
+namespace FM.Runtime.Systems.Input
 {
     /// <summary>
     /// Handles registering/unregistering and updating input events
