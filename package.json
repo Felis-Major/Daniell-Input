@@ -1,13 +1,13 @@
 {
-  "name": "com.felismajor.daniellinput",
+  "name": "com.felismajor.input",
   "version": "1.0.0",
-  "displayName": "Daniell Input",
-  "description": "Input bridge between Unity's new Input System and Daniell events",
+  "displayName": "FM Input",
+  "description": "Input bridge between Unity's new Input System and FM Core events",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "dependencies": {
 	"com.unity.inputsystem": "1.0.2",
-    	"com.felismajor.daniellcore": "https://github.com/Felis-Major/Daniell-Core.git"
+    	"com.felismajor.core": "https://github.com/Felis-Major/Daniell-Core.git"
  },
   "author": {
     "name": "Felis Major",
