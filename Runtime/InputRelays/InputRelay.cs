@@ -23,6 +23,10 @@ namespace FM.Runtime.Systems.Input
 		[Tooltip("Should this event be sent every frame?")]
 		private bool _alwaysUpdate;
 
+		[SerializeField]
+		[Tooltip("Fire if active on enabled")]
+		private bool _computeDisabledEvents;
+
 
 		/* ==========================
          * > Protected Fields
@@ -53,6 +57,25 @@ namespace FM.Runtime.Systems.Input
 			{
 				_inputAction.performed += EventPerformed;
 			}
+
+			//// Check if events were fired while the relay was unregistered
+			//if (_computeDisabledEvents)
+			//{
+			//	if (_inputAction.WasPressedThisFrame())
+			//	{
+			//		EventStarted(_inputAction.);
+			//	}
+
+			//	if (_inputAction.WasPerformedThisFrame())
+			//	{
+
+			//	}
+
+			//	if (_inputAction.WasReleasedThisFrame())
+			//	{
+
+			//	}
+			//}
 		}
 
 		/// <summary>

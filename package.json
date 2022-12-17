@@ -6,7 +6,7 @@
   "unity": "2020.3",
   "unityRelease": "0b5",
   "dependencies": {
-	"com.unity.inputsystem": "1.0.2",
+	"com.unity.inputsystem": "1.1.0",
     	"com.felismajor.core": "https://github.com/Felis-Major/FM-Core.git"
  },
   "author": {
