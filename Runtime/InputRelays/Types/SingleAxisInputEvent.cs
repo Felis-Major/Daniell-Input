@@ -1,8 +1,9 @@
-﻿using FM.Runtime.Systems.Events;
+﻿using FM.Runtime.Core;
+using FM.Runtime.Systems.Events;
 using UnityEngine;
 
 namespace FM.Runtime.Systems.Input
 {
-    [CreateAssetMenu(menuName = "Input/Single Axis Input Event")]
-    public class SingleAxisInputEvent : ValueInputRelay<FloatEvent, float> { }
+	[CreateAssetMenu(menuName = PackageConstants.BasePath + "/Input/" + nameof(SingleAxisInputEvent), fileName = "New " + nameof(SingleAxisInputEvent))]
+	public class SingleAxisInputEvent : ValueInputRelay<FloatEvent, float> { }
 }

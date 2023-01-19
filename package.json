@@ -1,6 +1,6 @@
 {
   "name": "com.felismajor.input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "FM Input",
   "description": "Input bridge between Unity's new Input System and FM Core events",
   "unity": "2020.3",

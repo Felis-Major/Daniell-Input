@@ -1,8 +1,9 @@
-﻿using FM.Runtime.Systems.Events;
+﻿using FM.Runtime.Core;
+using FM.Runtime.Systems.Events;
 using UnityEngine;
 
 namespace FM.Runtime.Systems.Input
 {
-    [CreateAssetMenu(menuName = "Input/Button Input Event")]
+    [CreateAssetMenu(menuName = PackageConstants.BasePath + "/Input/" + nameof(ButtonInputEvent), fileName = "New " + nameof(ButtonInputEvent))]
     public class ButtonInputEvent : VoidInputRelay<VoidEvent> { }
 }
